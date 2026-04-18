@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const api = axios.create({
     // Dono options rakhein: local aur production (env se handle karein)
-    baseURL: import.meta.env.VITE_API_URL || 'https://hagathon-aihelp-human-backend.onrender.com/',
+    baseURL: import.meta.env.VITE_API_URL || 'https://hagathon-aihelp-human-backend.onrender.com/api',
     timeout: 30000, 
     headers: {
         'Content-Type': 'application/json'
